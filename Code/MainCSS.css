@@ -1,0 +1,40 @@
+body{
+    background-color: #d6e2f0;
+    font-family: Outfit;
+}
+
+.container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.box{
+    margin: auto;
+    box-shadow: 0 5px 8px 0 #ddd;
+    padding: 15px;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box > p{
+    font-size: 15px;
+    color: #7b879d;
+}
+
+.box > h3 {
+    color: #1f3251;
+}
+
+.box > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
